@@ -19,7 +19,7 @@ services:
     volumes:
       - ./:/var/www/html
     ports:
-      - "5000:69"
+      - "5678"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
